@@ -17,18 +17,19 @@ const Footer = () => {
               </div>
               <div className='col-lg-4'>
                 <h5>Help</h5>
+                <h6>This is build for project</h6>
               </div>
               <div className='col-lg-4'>
                 <Container>
                   <h5>Follow Us</h5>
                   <div className='social-media-icons d-flex justify-content-evenly'>
-                    <a href='https://www.facebook.com/'>
+                    <a href=''>
                       <FontAwesomeIcon icon={faFacebook} />
                     </a>
                     <a href=''>
                       <FontAwesomeIcon icon={faTwitter} />
                     </a>
-                    <a href='baburaja1398'>
+                    <a href=''>
                       <FontAwesomeIcon icon={faInstagram} />
                     </a>
                     <a href=''>
@@ -45,6 +46,7 @@ const Footer = () => {
             <div className='row'>
               <div className='col-12 text-center'>
                 <h6>Developed By: <span>Raja Babu</span></h6>
+                
               </div>
             </div>
           </div>
