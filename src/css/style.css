@@ -1,0 +1,132 @@
+/* @font-face {
+    font-family: 'Lato';
+    src: url('./Lato-Regular.ttf');
+  } */
+
+@import 'utilities.css';
+:root {
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary: #070606;
+}
+
+/* body {
+    font-family: 'Lato';
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: var(--dark);
+}
+
+.head {
+    background: url(../image/img2.avif);
+}
+
+.hero-banner {
+    background: url(../image/homeimg.jpg);
+}
+
+.city-btn {
+    font-size: 30px;
+}
+
+header h2 {
+    color: var(--pure);
+    margin-bottom: 1.5rem;
+}
+
+header h3 {
+    color: var(--primary);
+    margin-bottom: 2.5rem;
+    font-size: 35px;
+}
+
+
+header h6 {
+    color: var(--pure);
+}
+
+header .row .col .x {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    color: var(--pure);
+    text-decoration: none;
+}
+
+header section input {
+    width: 50%;
+    height: 40px;
+} 
+
+.menu-image {
+    width: 100px;
+    height: 100px;
+}
+.image-max-height {
+    max-height: 250px;
+    min-height: 250px;
+    max-width: 100%;
+}
+
+.footer {
+    background: var(--dark);
+    color: white;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+img.food-image-large {
+    height: 400px;
+    width: 100%;
+}
+
+img.food-image-small {
+    height: 188px;
+    width: 100%;
+}
+
+.section-header {
+    background: var(--light);
+}
+
+.section-data {
+    background: var(--pure);
+}
+
+.veg-nonveg-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.btn-logout {
+    float: right;
+    padding: 5px;
+    margin: 10px 6px;
+}
+
+.btn-logout:hover {
+    background: var(--dark);
+    color: var(--pure);
+}
+
+.social-media-icons {
+    font-size: 2rem;
+    margin-right: 5rem;
+}
+
+.decorate {
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
