@@ -45,8 +45,7 @@ const Footer = () => {
 
             <div className='row'>
               <div className='col-12 text-center'>
-                <h6>Developed By: <span>Raja Babu</span></h6>
-                
+                <h6>Developed By: <span>Raja Babu</span></h6>  
               </div>
             </div>
           </div>
