@@ -42,8 +42,8 @@ const AddMenu = () => {
         if(tempObj.rest_name !== '' && tempObj.location !== '' && tempObj.category !== '') {
           try {
             const url = 'http://localhost:4000/menu';
-            const response = await axios.post(url, tempObj);
-            console.log(response);
+              
+            // console.log(response);
             if(response.status === 201) {
               setSubmitStatus(true);
               errorRef.current.textContent = ''
@@ -57,10 +57,8 @@ const AddMenu = () => {
           errorRef.current.textContent = 'Plz fill all the values.'
         }
     }
-
   return (
     <>
-
         <section id="" className="">
             <div className="container" data-aos="fade-up">
                 <div className="row">
@@ -94,9 +92,7 @@ const AddMenu = () => {
                             <option value="mumbai">Vegan</option>
                             </select>
                         </div>
-                    </div>
-
-                    
+                    </div>    
 
                     <div className="form-group row">
                         <label  className="col-sm-2 col-form-label">Food Category</label>

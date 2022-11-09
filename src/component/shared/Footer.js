@@ -14,6 +14,11 @@ const Footer = () => {
                 <h5>Address</h5>
                 <span>India Muzaffarpur</span>
                 <h6>Email: <span>baburaja131998@gmail.com</span></h6>
+
+                <h3>About</h3>
+                <h6>This Food App is developed for Providing Food instantly</h6>
+                <h6>It has <b>Established in 2022</b></h6>
+                <h6>We are here to serve the food for the nation</h6>
               </div>
               <div className='col-lg-4'>
                 <h5>Help</h5>
