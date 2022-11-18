@@ -42,7 +42,7 @@ const AddMenu = () => {
         if(tempObj.rest_name !== '' && tempObj.location !== '' && tempObj.category !== '') {
           try {
             const url = 'http://localhost:4000/menu';
-              
+            const response = await axios.post(url, tempObj);
             // console.log(response);
             if(response.status === 201) {
               setSubmitStatus(true);
