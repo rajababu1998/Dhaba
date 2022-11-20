@@ -35,14 +35,14 @@ const Restaurant = () => {
 
     // api call for restaurant details 
     const callApi = async () => {
-        const url = 'http://localhost:4000/restaurants/search/' + tempId.id;
+        const url = 'https://khana45.herokuapp.com/restaurants/search/' + tempId.id;
         const response = await axios.get(url);
         setRestData(response.data);
     }
 
     // api call for restaurant menu items.
     const callApiMenu = async () => {
-        const url = 'http://localhost:4000/menu/' + tempId.id;
+        const url = 'https://khana45.herokuapp.com/menu/' + tempId.id;
         const response = await axios.get(url);
         setMenu(response.data)
     }
