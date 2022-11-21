@@ -26,7 +26,7 @@ const Login = () => {
 
     if(tempObj.username !== '' && tempObj.password !== '') {
       try {
-        const url = 'http://localhost:4000/user/login';
+        const url = 'https://khana45.herokuapp.com/user/login';
         const response = await axios.post(url, tempObj);
         console.log(response);
         if(response.status === 200) {

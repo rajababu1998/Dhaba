@@ -16,7 +16,7 @@ const List = () => {
     console.log(tempdata2.city);
 
     const apiCall = async () => {
-        const url = 'http://localhost:4000/restaurants/' + tempdata2.city;
+        const url = 'https://khana45.herokuapp.com/restaurants/' + tempdata2.city;
         const responseApi = await axios.get(url);
         console.log(responseApi);
         setList(responseApi.data)

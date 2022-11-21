@@ -67,8 +67,6 @@ const Restaurant = () => {
         }
     }
 
-    
-
     useEffect(() => {
         callApi();
         callApiMenu();
